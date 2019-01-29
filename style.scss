@@ -1,0 +1,31 @@
+/*
+Modal Scss*/
+.modal-dialog{
+  max-width: 600px;
+}
+.modal-content{
+  .close{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: $theme-color;
+    color: $brand-white;
+    border-radius: 50%;
+    opacity: 1;
+    top: -20px;
+    right: -20px;
+    z-index: 1;
+
+  }
+}
+.modal-body{
+  padding: 5px;
+}
+.close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus{
+  @include opacity(1);
+  color: $brand-white;
+}
+.map-btn{
+  padding: 0px;
+  cursor: pointer;
+}
