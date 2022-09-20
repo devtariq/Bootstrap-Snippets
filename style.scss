@@ -29,3 +29,31 @@ Modal Scss*/
   padding: 0px;
   cursor: pointer;
 }
+
+/*=====================================================
+  Accordion CSS
+*/
+
+.accordion-button:not(.collapsed) {
+    color           : #009961;
+    background-color: transparent;
+    box-shadow      : inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+
+.accordion-button,.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+    border: 0 none;
+}
+
+.accordion-item {
+    background   : transparent;
+    border       : 0 none;
+    margin-bottom: 20px;
+
+    button {
+
+        font-size  : 18px;
+        font-weight: 600;
+    }
+}
